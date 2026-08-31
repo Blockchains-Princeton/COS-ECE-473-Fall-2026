@@ -1,0 +1,28 @@
+# OS
+.DS_Store
+
+# Notebooks
+.ipynb_checkpoints
+
+# Node / JS
+node_modules
+dist
+npm-debug.log*
+
+# Solidity / Hardhat / Foundry
+artifacts
+cache
+typechain
+typechain-types
+out
+broadcast
+
+# Secrets — never commit keys or RPC URLs
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__
+venv
+.venv
