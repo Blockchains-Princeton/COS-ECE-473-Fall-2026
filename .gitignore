@@ -26,3 +26,6 @@ broadcast
 __pycache__
 venv
 .venv
+
+# Retired labs kept locally, not part of the course repo
+Labs/Extra/
