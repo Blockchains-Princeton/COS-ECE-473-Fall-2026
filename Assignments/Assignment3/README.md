@@ -61,6 +61,8 @@ Similar to Assignment 2, we will use Truffle to test smart contracts and Ganache
 2.  `cd Assignment3` and run `npm install` to install openzeppelin packages. 
 3. Replace the `Swap.sol` contract in the `contracts` folder with your implementation. Run `truffle test`.
 
+Note: Truffle and Ganache are no longer maintained, so you may see deprecation warnings during `npm install` and a `µWS is not compatible with your Node.js build ... Falling back to a NodeJS implementation` message when running `truffle test`; these are harmless and can be safely ignored.
+
 ### Notes on decimals
 Due to the lack of floating-point numbers, Solidity arithmetic chops off the decimal portion of a number, which may cause the difference between your calculation and the results in the testing script even using the same formula. For example:
 
