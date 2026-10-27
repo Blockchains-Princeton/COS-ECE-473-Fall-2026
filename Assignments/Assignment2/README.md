@@ -72,5 +72,5 @@ Note: Do not change other files in `Assignment2`, the `PriceFeed.sol` provided h
 
 
 ## Submission
-Rename the `Mint.sol` to `<your_netid>.sol` and submit it to [this form](https://forms.gle/q39w6CbirKCfpyBRA).  The grading will be conducted using truffle with more tests, including both valid and invalid operations (such as when the caller is not the owner of the position, withdrawal / mint that results in an under-collateralized CDP).
+Rename the `Mint.sol` to `<your_netid>.sol` and submit it to [this form](https://docs.google.com/forms/d/e/1FAIpQLSd05-ZXAuNJkJqJqiLOBDws1pwFCF0CKm1DU7gfvtZHB6qHpw/viewform?usp=header).  The grading will be conducted using truffle with more tests, including both valid and invalid operations (such as when the caller is not the owner of the position, withdrawal / mint that results in an under-collateralized CDP).
 
